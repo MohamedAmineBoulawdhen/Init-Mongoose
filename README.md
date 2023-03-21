@@ -12,7 +12,7 @@ In this challenge, I'm going to handle and manage my database using Mongoose.
 ```javascript
    mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true });
 ```
-## Create a person with this prototype:
+## Create a person
 
 - Person Prototype -
 name: string [required]
@@ -23,7 +23,7 @@ favoriteFoods: array of strings (*)
 Use the mongoose basic schema types. If you want you can also add more fields, 
 use simple validators like required or unique, and set default values. See the mongoose docs.
 
-## Create and Save a Record of a Model:
+## Create and Save a Record of a Model
 
 Create a document instance using the Person constructor you built before. 
 Pass to the constructor an object having the fields name, age, and favoriteFoods. 
